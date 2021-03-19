@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.perlovina.seasonalwearing.DetailsViewActivity">
+
+    <ImageView
+        android:id="@+id/image_details"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/sample_0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/outwear"
+            style="@style/DetailsTextStyle"
+            android:text="@string/shirts" />
+
+        <TextView
+            android:id="@+id/jeans"
+            style="@style/DetailsTextStyle"
+            android:text="@string/jeans" />
+
+        <TextView
+            android:id="@+id/shoes"
+            style="@style/DetailsTextStyle"
+            android:text="@string/shoes" />
+
+        <TextView
+            android:id="@+id/bag"
+            style="@style/DetailsTextStyle"
+            android:text="@string/bag" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SeasonalWearing</string>
+
+    <!-- Category name for the vocabulary words for autumn [CHAR LIMIT=20] -->
+    <string name="category_autumn">Autumn</string>
+
+    <!-- Category name for the vocabulary words for winter [CHAR LIMIT=20] -->
+    <string name="category_winter">Winter</string>
+
+    <!-- Category name for the vocabulary words for spring [CHAR LIMIT=20] -->
+    <string name="category_spring">Spring</string>
+
+    <!-- Category name for summer [CHAR LIMIT=20] -->
+    <string name="category_summer">Summer</string>
+    <!-- Detail View Activity title [CHAR LIMIT=20] -->
+    <string name="detail_view">Details</string>
+
+    <!-- Shirt description for detail view [CHAR LIMIT=20] -->
+    <string name="shirts">Shirts: Zara 80$</string>
+
+    <!-- Jeans description for detail view [CHAR LIMIT=20] -->
+    <string name="jeans">Jeans: Mango 64$</string>
+
+    <!-- Shoes description for detail view [CHAR LIMIT=20] -->
+    <string name="shoes">Shoes: Nike 95$</string>
+
+    <!-- Bag description for detail view [CHAR LIMIT=20] -->
+    <string name="bag">Bag: Michael Kors 112$</string>
+
+</resources>

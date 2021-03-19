@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#d81b60</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#84012e</color>
+
+    <color name="primary_light">#d81b60</color>
+
+
+    <!-- Background color for the numbers category -->
+    <color name="category_autumn">#90fd9b09</color>
+
+    <!-- Background color for the family members category -->
+    <color name="category_winter">#a7b4b4b4</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_spring">#c184cc6d</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_summer">#bf82deec</color>
+</resources>

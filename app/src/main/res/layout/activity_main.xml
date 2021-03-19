@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.perlovina.seasonalwearing.MainActivity">
+
+<!-- Summer category -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_summer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icons_summer"
+        tools:src="@drawable/icons_summer" />
+    <TextView
+        android:id="@+id/summer"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_summer" />
+    </LinearLayout>
+</FrameLayout>
+
+<!-- Autumn category -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_autumn">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icons_autumn" />
+    <TextView
+        android:id="@+id/autumn"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_autumn" />
+    </LinearLayout>
+</FrameLayout>
+
+<!-- Winter category -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_winter">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icons_snow" />
+    <TextView
+        android:id="@+id/winter"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_winter" />
+    </LinearLayout>
+</FrameLayout>
+
+<!-- Phrases category -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/category_spring">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/icons_nature"
+        android:contentDescription="TODO" />
+    <TextView
+        android:id="@+id/spring"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_spring" />
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>
